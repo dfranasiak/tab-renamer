@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tab Renamer</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tab Renamer</h1>
+    <p class="url" id="current-url"></p>
+
+    <label for="name-input">Custom name</label>
+    <input
+      type="text"
+      id="name-input"
+      placeholder="Enter tab name…"
+      autocomplete="off"
+      spellcheck="false"
+    />
+
+    <div class="actions">
+      <button id="save-btn" class="primary">Save</button>
+      <button id="clear-btn" class="secondary">Clear</button>
+    </div>
+
+    <p class="hint" id="status"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

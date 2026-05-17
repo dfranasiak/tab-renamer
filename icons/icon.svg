@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- rounded background -->
+  <rect width="128" height="128" rx="24" ry="24" fill="#4a90e2"/>
+  <!-- pencil body (rotated -45deg around centre) -->
+  <!-- shaft -->
+  <g transform="translate(64,64) rotate(-45)">
+    <!-- eraser cap -->
+    <rect x="-10" y="-52" width="20" height="14" rx="4" fill="#f5a623"/>
+    <!-- ferrule -->
+    <rect x="-10" y="-38" width="20" height="8" fill="#d0d0d0"/>
+    <!-- shaft -->
+    <rect x="-10" y="-30" width="20" height="52" fill="#fff"/>
+    <!-- pencil tip triangle -->
+    <polygon points="-10,22 10,22 0,42" fill="#f5c87a"/>
+    <!-- graphite tip -->
+    <polygon points="-3,36 3,36 0,42" fill="#555"/>
+  </g>
+</svg>
